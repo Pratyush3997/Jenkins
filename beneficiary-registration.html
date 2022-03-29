@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficiary</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="home">
+        <header>
+            <a href="#"><img src="images/logo.png" alt="logo" height="100px" width="100px"></a>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#login">Login</a></li>
+                <!-- <li><a href="#remitter">Login</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+    </section>
+    <section id="login">
+        <h1 id="register-h1">
+            Beneficiary Register
+        </h1>
+        <div id="register-form">
+        <form action ="remitter.html" name="myForm" onsubmit="return validateForm()" method="post">
+            <table>
+            <div class="formdesign" id="name">
+            <tr>
+                <td>Name: </td>
+                <td> 
+                    <input type="text" name="fname" required ><b><span class="formerror"> </span></b>
+                </td>
+            </tr>
+            </div>
+
+            <div class="formdesign" id="phone">
+                <tr>
+                    <td>Account Number: </td>
+                    <td>
+                    <input type="tel" name="fphone" required><b><span class="formerror"></span></b>
+                    </td>
+                </tr>
+            </div>
+
+            <div class="formdesign" id="phone">
+                <tr>
+                    <td>Account Type </td>
+                    <td>
+                    <input type="text" name="fphone" required><b><span class="formerror"></span></b>
+                    </td>
+                </tr>
+            </div>
+    
+            <div class="formdesign" id="phone">
+            <tr>
+                <td>Account Status :  </td>
+                <td>
+                <input type="text" name="fphone" required><b><span class="formerror"></span></b>
+                </td>
+            </tr>
+            </div>
+
+            <div class="formdesign" id="phone">
+                <tr>
+                    <td>IFSC Code :  </td>
+                    <td>
+                    <input type="text" name="fphone" required><b><span class="formerror"></span></b>
+                    </td>
+                </tr>
+                </div>
+
+            <div class="formdesign" id="email">
+                <tr>
+                    <td>Email: </td>
+                    <td>
+                    <input type="email" name="femail" required><b><span class="formerror"> </span></b>
+                    </td>
+                </tr>
+            </div>
+
+            <div class="formdesign" id="email">
+                <tr>
+                    <td>Maximum Transfer Limit : </td>
+                    <td>
+                    <input type="number " name="femail" required><b><span class="formerror"> </span></b>
+                    </td>
+                </tr>
+            </div>
+
+            <!-- <div class="formdesign" id="phone">
+                <tr>
+                    <td>Address</td>
+                    <td>
+                    <input type="tel" name="fphone" required><b><span class="formerror"></span></b>
+                    </td>
+                </tr>
+                </div> -->
+    
+            <!-- <div class="formdesign" id="pass">
+                <td>Password: </td>
+                <td>
+                <input type="password" name="fpass" required><b><span class="formerror"></span></b>
+                </td>
+            </div>
+    
+            <div class="formdesign" id="cpass">
+            <tr>
+                <td>Confirm Password: </td>
+                <td>
+                <input type="password" name="fcpass" required><b><span class="formerror"></span></b>
+                </td>
+            </tr>
+            </div> -->
+
+    
+            <tr>
+                <td><input onclick="myFunction()" class="submit" type="submit" value="Register"></td>
+            </tr>
+        </table>
+        </form>
+    </div>
+   
+    </section>
+   
+
+    <section id="contact">
+        <div id="address1">
+            <address>
+                <h3>ADDRESS</h3><br />
+
+                <b>Street : </b>	1670 Jarvisville Road<br />
+                <b>City : </b>	Westbury <br />
+                <b>State/Province abbr : </b>	NY<br />
+                <b>State/Province full : </b>	New York<br />
+                <b>Zip Code/Postal code : </b>	11590<br />
+                <b>Phone Number : </b>	516-876-6000<br />
+                <b>Mobile Number : </b> 516-864-0735<br />
+                <b>Temporary mail : </b>funds@banking.net	<br />
+            
+            </address>
+        </div> 
+        <div id="address2">
+            <address>
+                <h3>ADDRESS</h3><br />
+
+                <b>Street : </b>	1670 Jarvisville Road<br />
+                <b>City : </b>	Westbury <br />
+                <b>State/Province abbr : </b>	NY<br />
+                <b>State/Province full : </b>	New York<br />
+                <b>Zip Code/Postal code : </b>	11590<br />
+                <b>Phone Number : </b>	516-876-6000<br />
+                <b>Mobile Number : </b> 516-864-0735<br />
+                <b>Temporary mail : </b>funds@banking.net	<br />
+            
+            </address>
+        </div> 
+        <div id="address3">
+            <address>
+                <h3>ADDRESS</h3><br />
+
+                <b>Street : </b>	1670 Jarvisville Road<br />
+                <b>City : </b>	Westbury <br />
+                <b>State/Province abbr : </b>	NY<br />
+                <b>State/Province full : </b>	New York<br />
+                <b>Zip Code/Postal code : </b>	11590<br />
+                <b>Phone Number : </b>	516-876-6000<br />
+                <b>Mobile Number : </b> 516-864-0735<br />
+                <b>Temporary mail : </b>funds@banking.net	<br />
+            
+            </address>
+        </div> 
+        <div>
+            <footer>
+                &copy; All Rights Reserved
+            </footer>
+        </div>   
+    </section>
+</body>
+</html>

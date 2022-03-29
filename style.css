@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 100%;
+  font-family: sans-serif;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+#menu li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+}
+
+#menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+  float: left;
+  height: 100vh;
+  position: relative;
+}
+
+#home {
+  background-color: #59405c;
+  background-image: url(home-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*opacity: 90%;  */
+}
+
+/* #menu {
+} */
+
+#login {
+  background-color: #254e58;
+}
+#register {
+  background-color: #ed6663;
+}
+
+#options {
+  background-color: #254e58;
+}
+#contact {
+  background-color: #112d32;
+}
+
+h1 {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+table {
+  padding-block: 10px;
+}
+
+#register-form {
+  position: absolute;
+  top: 60%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#register-h1 {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 10px;
+}
+
+#login-form {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#login-h1 {
+  position: absolute;
+  top: 30%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-shadow: 10px;
+}
+
+.formdesign {
+  font-size: 20px;
+}
+
+.formdesign input {
+  width: 50%;
+  padding: 12px 20px;
+  border: 1px solid rgb(35, 95, 186);
+  margin: 14px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.formerror {
+  color: rgb(206, 73, 73);
+}
+
+.submit {
+  border-radius: 9px;
+  width: 100px;
+  height: 25px;
+  font-size: 18px;
+  margin: 22px 20px;
+}
+
+#address1 {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#address2 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+#address3 {
+  position: absolute;
+  top: 60%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+footer {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+/* ----------------------------------- */
+/* remitter options */
+
+#options-list {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+#options-list ol a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: bold;
+}
