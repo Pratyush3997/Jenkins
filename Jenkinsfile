@@ -27,13 +27,4 @@ pipeline
 		}
 	}
 
-	post
-	{
-        always
-        {
-            emailtext body:'Summary' ,mail to: pratyushthorat@gmail.com, subject: 'The Pipeline failed :('
-        }
-        
-    }
-	
 }
